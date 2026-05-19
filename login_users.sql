@@ -4,7 +4,7 @@ CREATE OR REPLACE PROCEDURE login_users (
     p_result   OUT VARCHAR2,
     p_user_id  OUT NUMBER
 )
-AS
+AS  
     v_count NUMBER;
 BEGIN
 
