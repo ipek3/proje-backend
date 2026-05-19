@@ -3,6 +3,13 @@
 Bu doküman, Oracle SQL Developer üzerinde geliştirilen GSM backend sisteminin tablolarını ve prosedürlerini açıklar.
 
 ---
+# Tablo ilişkileri
+
+Subscriber tablosu; subscriptions, one_time_transactions ve audit_logs tablolarıyla subscriber_id üzerinden;
+ services tablosu ise subscriptions ve one_time_transactions tablolarıyla service_id üzerinden foreign key ilişkisi kurarak,
+sistemde abonelik, satış ve işlem takibini birbirine bağlı hale getirir.
+
+---
 
 # Sistem Genel Mimarisi
 
