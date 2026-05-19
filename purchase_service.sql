@@ -1,4 +1,4 @@
-create or replace NONEDITIONABLE PROCEDURE purchase_service (
+create or replace  PROCEDURE purchase_service (
     p_subscriber_id NUMBER,
     p_service_id NUMBER
 )
